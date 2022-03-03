@@ -1,0 +1,1 @@
+# Holds image link variables for each avatar
