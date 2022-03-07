@@ -2,7 +2,7 @@
 
 This folder includes all of the docs for PyAvatar. More can be found on the [wiki](https://github.com/willtheorangeguy/PyAvatar/wiki).
 
-```
+```text
 ├── docs
 |   ├── images
 |   ├── legal
