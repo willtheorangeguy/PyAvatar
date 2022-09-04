@@ -45,7 +45,9 @@
 </p>
 
 <!-- Screenshot(s) -->
-<img align ="center" src="https://github.com/Dog-Face-Development/PyAvatar/blob/main/docs/images/main.png">
+<div align="center">
+  <img src="https://github.com/Dog-Face-Development/PyAvatar/blob/main/docs/images/main.png">
+</div>
 
 ## Key Features
 
