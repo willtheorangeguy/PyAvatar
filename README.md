@@ -131,4 +131,3 @@ This software uses the following open source packages, projects, services or web
 ## License
 
 This project is licensed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) - see the [`LICENSE`](LICENSE.md) file for details. See the [Privacy Policy](https://github.com/Dog-Face-Development/PyAvatar/blob/master/docs/legal/PRIVACY.md), [Terms and Conditions](https://github.com/Dog-Face-Development/PyAvatar/blob/master/docs/legal/TERMS.md), and [EULA](https://github.com/Dog-Face-Development/PyAvatar/blob/master/docs/legal/EULA.md) for legal information.
-
