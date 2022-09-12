@@ -1,0 +1,3 @@
+include PyAvatar/images.py
+include PyAvatar/links.py
+include PyAvatar/images/*
