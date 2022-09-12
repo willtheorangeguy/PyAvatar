@@ -22,6 +22,7 @@ setup(
     packages=find_packages(where="PyAvatar"),
     package_dir={"": "PyAvatar"},
     include_package_data=True,
+    py_modules = ['main'],
     entry_points={
         'console_scripts': [
             'python-avatar=main:avatars'
