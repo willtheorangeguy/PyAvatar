@@ -87,10 +87,10 @@ You can install the program from the [Python Package Index](https://pypi.org/pro
 
 ```bash
 # Install via pip
-$ pip install pyavatar
+$ pip install python-avatar
 
 # Run the CLI
-$ pyavatar
+$ python-avatar
 ```
 
 ## Support
