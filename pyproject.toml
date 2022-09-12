@@ -1,0 +1,31 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "PyAvatar"
+version = "0.2.0"
+authors = [
+  { name= "willtheorangeguy" },
+]
+description = "Easily display all of your creative avatars to keep them consistent across websites."
+readme = "README.md"
+license = { file="LICENSE.md" }
+requires-python = ">=3.9"
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+    'Topic :: Utilities',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Dog-Face-Development/PyAvatar"
+"Bug Tracker" = "https://github.com/Dog-Face-Development/PyAvatar/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["PyAvatar"]
