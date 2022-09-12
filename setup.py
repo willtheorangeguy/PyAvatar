@@ -6,7 +6,7 @@ def readme():
 
 setup(
 	name='python-avatar',
-	version='0.2.0',
+	version='0.2.1',
     description="Easily display all of your creative avatars to keep them consistent across websites.",
     long_description=readme(),
     classifiers=[
@@ -24,7 +24,7 @@ setup(
     include_package_data=True,
     entry_points={
         'console_scripts': [
-            'pyavatar=main:avatars'
+            'python-avatar=main:avatars'
         ]
     },
 )

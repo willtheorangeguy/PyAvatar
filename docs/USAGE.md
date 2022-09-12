@@ -21,6 +21,6 @@ To install PyAvatar, you can use an executable package (Windows), run the script
 ## Python Package Index (`pip`)
 
 1. Download and install [Python](https://www.python.org/downloads/).
-2. Open a terminal and run the command: `pip install pyavatar`.
-3. Start the program by running the command: `pyavatar`.
+2. Open a terminal and run the command: `pip install python-avatar`.
+3. Start the program by running the command: `python-avatar`.
 4. Enjoy the program!
