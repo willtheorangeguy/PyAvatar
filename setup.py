@@ -5,7 +5,7 @@ def readme():
         return f.read()
 
 setup(
-	name='pyavatar',
+	name='py-avatar',
 	version='0.2.0',
     description="Easily display all of your creative avatars to keep them consistent across websites.",
     long_description=readme(),

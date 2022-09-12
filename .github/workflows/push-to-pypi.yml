@@ -2,6 +2,7 @@ name: PyPI Build
 on:
   release:
     types: [published]
+  workflow_dispatch:
 
 permissions:
   contents: read
