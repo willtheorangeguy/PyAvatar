@@ -14,16 +14,18 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
+import webbrowser
+from tkinter import *
 
 # Import Statements
-from tkinter import *
-import webbrowser
 
 # Account Avatar Function
 row_count = 2
 column_count = 1
 
 # PyAvatar Window
+
+
 def avatars():
     # Build Window
     window = Tk()
