@@ -1,15 +1,20 @@
+"""Setup file for PyAvatar."""
+#pylint: disable=invalid-name, import-error
+
 from setuptools import setup, find_packages
 
 
 def readme():
-    with open("README.md") as f:
+    """Read the README.md file."""
+    with open("README.md", encoding="UTF-8") as f:
         return f.read()
 
 
 setup(
     name="python-avatar",
     version="0.2.1",
-    description="Easily display all of your creative avatars to keep them consistent across websites.",
+    description="Easily display all of your creative avatars \
+        to keep them consistent across websites.",
     long_description=readme(),
     classifiers=[
         "Development Status :: 3 - Alpha",
