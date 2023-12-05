@@ -1,5 +1,5 @@
 """
-PyAvatar - sort and display avatars by website. 
+PyAvatar - sort and display avatars by website.
 Copyright (C) 2020-2023 @willtheorangeguy
 
 This program is free software: you can redistribute it and/or modify
@@ -45,9 +45,11 @@ def avatars():
 
     # Account Link Function
     def link(url):
+        """Opens a hyperlink in the default browser."""
         webbrowser.open_new(url)
 
     def accounts(image, name, hyperlink):
+        """Builds each account frame."""
         # Build each account frame
         account = Frame(window)
         img_account = image  # needs to be a GIF
