@@ -1,5 +1,5 @@
 """Test main.py."""
-#pylint: disable=import-error, wrong-import-position, too-many-function-args
+#pylint: disable=wrong-import-position, too-many-function-args
 
 import sys
 import os
@@ -14,6 +14,7 @@ from main import avatars
 
 class TestAccounts(unittest.TestCase):
     """Test the accounts function."""
+
     def setUp(self):
         """Set up the test environment."""
         self.window = Tk()
@@ -24,7 +25,7 @@ class TestAccounts(unittest.TestCase):
 
     def test_avatars(self):
         """Test the avatars function."""
-        with patch.object(Frame, 'grid') as mock_grid:
+        with patch.object(Frame, "grid") as mock_grid:
             avatars(self.name, self.hyperlink)
             # Check if grid method was called
             self.assertTrue(mock_grid.called)
@@ -40,5 +41,6 @@ class TestAccounts(unittest.TestCase):
         for widget in frame.children.values():
             self.assertIsInstance(widget, Label)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
