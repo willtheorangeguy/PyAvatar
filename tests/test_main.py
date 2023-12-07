@@ -1,5 +1,5 @@
 """Test main.py."""
-#pylint: disable=import-error, wrong-import-position, too-many-function-args
+# pylint: disable=import-error, wrong-import-position, too-many-function-args
 
 import sys
 import os
