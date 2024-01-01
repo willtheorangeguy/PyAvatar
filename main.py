@@ -1,6 +1,6 @@
 """
 PyAvatar - sort and display avatars by website.
-Copyright (C) 2020-2023 @willtheorangeguy
+Copyright (C) 2020-2024 @willtheorangeguy
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
