@@ -1,4 +1,5 @@
 """Pytest configuration and shared fixtures."""
+
 # pylint: disable=import-error
 
 import sys
@@ -6,57 +7,64 @@ import os
 import pytest
 from unittest.mock import MagicMock, Mock
 
+
 # Create a more robust tkinter mock
 class MockTkinter:
     """Mock tkinter module."""
-    
+
     class MockWidget:
         """Base mock widget."""
+
         def __init__(self, *args, **kwargs):
             self.args = args
             self.kwargs = kwargs
-            
+
         def pack(self, *args, **kwargs):
             """Mock pack."""
             pass
-            
+
         def grid(self, *args, **kwargs):
             """Mock grid."""
             pass
-            
+
         def bind(self, *args, **kwargs):
             """Mock bind."""
             pass
-    
+
     class Tk(MockWidget):
         """Mock Tk."""
+
         def title(self, text):
             """Mock title."""
             self._title = text
-            
+
         def mainloop(self):
             """Mock mainloop."""
             pass
-    
+
     class Frame(MockWidget):
         """Mock Frame."""
+
         pass
-    
+
     class Label(MockWidget):
         """Mock Label."""
+
         pass
-    
+
     class PhotoImage:
         """Mock PhotoImage."""
+
         def __init__(self, *args, **kwargs):
             self.args = args
             self.kwargs = kwargs
-    
-    TOP = 'top'
-    BOTTOM = 'bottom'
+
+    TOP = "top"
+    BOTTOM = "bottom"
+
 
 # Mock tkinter before any imports
-sys.modules['tkinter'] = MockTkinter()
+sys.modules["tkinter"] = MockTkinter()
 
 # Add project root to path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
