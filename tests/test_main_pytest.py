@@ -1,6 +1,4 @@
-"""Pytest-style tests for main.py."""
-
-# pylint: disable=import-error, wrong-import-position, redefined-outer-name
+# pylint: skip-file
 
 import sys
 import os

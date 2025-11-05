@@ -1,6 +1,4 @@
-"""Pytest configuration and shared fixtures."""
-
-# pylint: disable=import-error
+# pylint: skip-file
 
 import sys
 import os

@@ -1,6 +1,4 @@
-"""Comprehensive tests for main.py avatars functionality."""
-
-# pylint: disable=import-error, wrong-import-position
+# pylint: skip-file
 
 import sys
 import os

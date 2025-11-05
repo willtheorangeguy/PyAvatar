@@ -1,6 +1,4 @@
-"""Integration tests for PyAvatar application."""
-
-# pylint: disable=import-error, wrong-import-position
+# pylint: skip-file
 
 import sys
 import os

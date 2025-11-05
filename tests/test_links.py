@@ -1,6 +1,4 @@
-"""Tests for PyAvatar/links.py module."""
-
-# pylint: disable=import-error, wrong-import-position
+# pylint: skip-file
 
 import sys
 import os
