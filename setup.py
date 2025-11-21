@@ -1,5 +1,6 @@
 """Setup file for PyAvatar."""
-#pylint: disable=invalid-name, import-error
+
+# pylint: disable=invalid-name, import-error
 
 from setuptools import setup, find_packages
 

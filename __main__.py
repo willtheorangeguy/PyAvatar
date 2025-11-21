@@ -1,5 +1,6 @@
 """This is the main file for the avatars package."""
-#pylint: disable=invalid-name, import-error
+
+# pylint: disable=invalid-name, import-error
 
 from main import avatars
 
