@@ -14,7 +14,8 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-#pylint: disable=invalid-name, import-error, global-statement
+
+# pylint: disable=invalid-name, import-error, global-statement
 
 import webbrowser
 from tkinter import Tk, Frame, PhotoImage, Label, TOP, BOTTOM
