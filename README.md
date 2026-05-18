@@ -1,6 +1,6 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://github.com/Dog-Face-Development/PyAvatar/blob/main/docs/images/logo.png" height="250px" width="400px" alt="PyAvatar">
+  <img src="https://github.com/willtheorangeguy/PyAvatar/blob/main/docs/images/logo.png" height="250px" width="400px" alt="PyAvatar">
   <br>
   PyAvatar
   <br>
@@ -12,25 +12,25 @@
 <!-- Badges -->
 <div align="center">
   <!-- Stability -->
-  <img alt="PyPI Build State" src="https://github.com/Dog-Face-Development/PyAvatar/actions/workflows/push-to-pypi.yml/badge.svg">
+  <img alt="PyPI Build State" src="https://github.com/willtheorangeguy/PyAvatar/actions/workflows/push-to-pypi.yml/badge.svg">
   <!-- Stability -->
-  <img alt="PyTest State" src="https://github.com/Dog-Face-Development/PyAvatar/actions/workflows/pytest.yml/badge.svg">
+  <img alt="PyTest State" src="https://github.com/willtheorangeguy/PyAvatar/actions/workflows/pytest.yml/badge.svg">
   <!-- Stability -->
-  <img alt="Pylint State" src="https://github.com/Dog-Face-Development/PyAvatar/actions/workflows/pylint.yml/badge.svg">
+  <img alt="Pylint State" src="https://github.com/willtheorangeguy/PyAvatar/actions/workflows/pylint.yml/badge.svg">
   <!-- CodeQL -->
-  <img alt="CodeQL State" src="https://github.com/Dog-Face-Development/PyAvatar/actions/workflows/codeql-analysis.yml/badge.svg">
+  <img alt="CodeQL State" src="https://github.com/willtheorangeguy/PyAvatar/actions/workflows/codeql-analysis.yml/badge.svg">
   <!-- Version -->
-  <img alt="GitHub Version" src="https://img.shields.io/github/v/release/Dog-Face-Development/PyAvatar?include_prereleases">
+  <img alt="GitHub Version" src="https://img.shields.io/github/v/release/willtheorangeguy/PyAvatar?include_prereleases">
   <!-- Issues -->
-  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/Dog-Face-Development/PyAvatar">
+  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/willtheorangeguy/PyAvatar">
   <!-- Pull Requests -->
-  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Dog-Face-Development/PyAvatar">
+  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/willtheorangeguy/PyAvatar">
   <!-- Discord -->
   <img alt="Discord Server ID" src="https://img.shields.io/discord/950236097143779328">
   <!-- Downloads -->
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/Dog-Face-Development/PyAvatar/total">
+  <img alt="Downloads" src="https://img.shields.io/github/downloads/willtheorangeguy/PyAvatar/total">
   <!-- Language Count -->
-  <img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/Dog-Face-Development/PyAvatar">
+  <img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/willtheorangeguy/PyAvatar">
 </div>
 
 <!-- Navigation -->
@@ -46,7 +46,7 @@
 
 <!-- Screenshot(s) -->
 <div align="center">
-  <img src="https://github.com/Dog-Face-Development/PyAvatar/blob/main/docs/images/main.png">
+  <img src="https://github.com/willtheorangeguy/PyAvatar/blob/main/docs/images/main.png">
 </div>
 
 ## Key Features
@@ -60,13 +60,13 @@
 
 ## Download
 
-You can **[download](https://github.com/Dog-Face-Development/PyAvatar/releases/latest) the source code** to run the GUI script from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
+You can **[download](https://github.com/willtheorangeguy/PyAvatar/releases/latest) the source code** to run the GUI script from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
 
-You can **[download](https://github.com/Dog-Face-Development/PyAvatar/releases/latest) the latest executable launcher** of PyAvatar for Windows. **This does not require Python.**
+You can **[download](https://github.com/willtheorangeguy/PyAvatar/releases/latest) the latest executable launcher** of PyAvatar for Windows. **This does not require Python.**
 
 ## How To Use
 
-To run the application, you can use [Git and the Python Interpreter](https://github.com/Dog-Face-Development/PyAvatar/main/README.md#git), which allows you to clone and run the application, or [`pip`](https://github.com/Dog-Face-Development/PyAvatar/main/README.md#pip) to create a command line application.
+To run the application, you can use [Git and the Python Interpreter](https://github.com/willtheorangeguy/PyAvatar/main/README.md#git), which allows you to clone and run the application, or [`pip`](https://github.com/willtheorangeguy/PyAvatar/main/README.md#pip) to create a command line application.
 
 ### Git
 
@@ -74,7 +74,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com/downloa
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Dog-Face-Development/PyAvatar
+$ git clone https://github.com/willtheorangeguy/PyAvatar
 
 # Go into the repository
 $ cd PyAvatar
@@ -99,13 +99,13 @@ $ python-avatar
 
 To view all available websites and their corresponding avatar's, just launch the app!
 
-Customizing the list and location of websites, avatars and links can be found in [`CUSTOMIZATION.md`](https://github.com/Dog-Face-Development/PyAvatar/tree/main/docs). More documentation is available in the **[Documentation](https://github.com/Dog-Face-Development/PyAvatar/tree/main/docs)** and on the **[Wiki](https://github.com/Dog-Face-Development/PyAvatar/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/Dog-Face-Development/PyAvatar/discussions/new)** or join our **[Discord](https://discord.gg/Cjwt8DRfr3)**.
+Customizing the list and location of websites, avatars and links can be found in [`CUSTOMIZATION.md`](https://github.com/willtheorangeguy/PyAvatar/tree/main/docs). More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/PyAvatar/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/PyAvatar/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/PyAvatar/discussions/new)** or join our **[Discord](https://discord.gg/Cjwt8DRfr3)**.
 
 ## Contributing
 
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/Dog-Face-Development/PyAvatar/compare).
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/willtheorangeguy/PyAvatar/compare).
 
-Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us (including how to sign our CLA).
+Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## Changelog
 
@@ -140,10 +140,10 @@ This software uses the following open source packages, projects, services or web
 
 ## You may also like...
 
-* [ProgramVer](https://github.com/Dog-Face-Development/ProgramVer) - An open-source, Python GUI version window to show copyright info and licenses.
-* [PyWorkout](https://github.com/Dog-Face-Development/PyWorkout) - A minimal CLI to keep you inspired during your workout!
-* [Periodic-Table-Info](https://github.com/Dog-Face-Development/Periodic-Table-Info) - Print all the elements in the Periodic Table of the Elements, with an interactive prompt to learn more.
+* [ProgramVer](https://github.com/willtheorangeguy/ProgramVer) - An open-source, Python GUI version window to show copyright info and licenses.
+* [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout!
+* [Periodic-Table-Info](https://github.com/willtheorangeguy/Periodic-Table-Info) - Print all the elements in the Periodic Table of the Elements, with an interactive prompt to learn more.
 
 ## License
 
-This project is licensed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) - see the [`LICENSE`](LICENSE.md) file for details. See the [Privacy Policy](https://github.com/Dog-Face-Development/PyAvatar/blob/master/docs/legal/PRIVACY.md), [Terms and Conditions](https://github.com/Dog-Face-Development/PyAvatar/blob/master/docs/legal/TERMS.md), and [EULA](https://github.com/Dog-Face-Development/PyAvatar/blob/master/docs/legal/EULA.md) for legal information.
+This project is licensed under the [MIT License](https://mit-license.org/) - see the [`LICENSE`](LICENSE.md) file for details.

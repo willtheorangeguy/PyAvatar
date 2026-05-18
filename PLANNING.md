@@ -12,4 +12,4 @@
 
 - [ ] Finalize program and release first not `beta` version.
 
-**More planning ideas can be found on the [Issues page](https://github.com/Dog-Face-Development/PyAvatar/issues) or the [Projects page](https://github.com/Dog-Face-Development/PyAvatar/projects?type=classic).**
+**More planning ideas can be found on the [Issues page](https://github.com/willtheorangeguy/PyAvatar/issues) or the [Projects page](https://github.com/willtheorangeguy/PyAvatar/projects?type=classic).**
