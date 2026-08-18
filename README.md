@@ -1,115 +1,88 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://github.com/willtheorangeguy/PyAvatar/blob/main/docs/images/logo.png" height="250px" width="400px" alt="PyAvatar">
+  <img src="https://raw.githubusercontent.com/willtheorangeguy/.github/main/icons/PyAvatar/logo.png" height="250px" width="400px" alt="PyAvatar">
   <br>
   PyAvatar
   <br>
 </h1>
 
 <!-- Copy -->
-<h4 align="center">Easily display all of your creative avatars to keep them consistent across websites.</h4>
+<h4 align="center">A desktop window showing every avatar you use, and where you use it — so they stay consistent across the web.</h4>
 
 <!-- Badges -->
 <div align="center">
-  <!-- Stability -->
   <img alt="PyPI Build State" src="https://github.com/willtheorangeguy/PyAvatar/actions/workflows/push-to-pypi.yml/badge.svg">
-  <!-- Stability -->
   <img alt="PyTest State" src="https://github.com/willtheorangeguy/PyAvatar/actions/workflows/pytest.yml/badge.svg">
-  <!-- Stability -->
   <img alt="Pylint State" src="https://github.com/willtheorangeguy/PyAvatar/actions/workflows/pylint.yml/badge.svg">
-  <!-- CodeQL -->
   <img alt="CodeQL State" src="https://github.com/willtheorangeguy/PyAvatar/actions/workflows/codeql-analysis.yml/badge.svg">
-  <!-- Version -->
   <img alt="GitHub Version" src="https://img.shields.io/github/v/release/willtheorangeguy/PyAvatar?include_prereleases">
-  <!-- Issues -->
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/willtheorangeguy/PyAvatar">
-  <!-- Pull Requests -->
   <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/willtheorangeguy/PyAvatar">
-  <!-- Discord -->
-  <img alt="Discord Server ID" src="https://img.shields.io/discord/950236097143779328">
-  <!-- Downloads -->
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/willtheorangeguy/PyAvatar/total">
-  <!-- Language Count -->
-  <img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/willtheorangeguy/PyAvatar">
 </div>
 
 <!-- Navigation -->
 <p align="center">
+  <a href="#status">Status</a> •
   <a href="#key-features">Key Features</a> •
-  <a href="#download">Download</a> •
-  <a href="#how-to-use">How To Use</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#documentation">Documentation</a> •
   <a href="#support">Support</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#changelog">Changelog</a> •
-  <a href="#credits">Credits & Contributors</a>
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
 </p>
 
-<!-- Screenshot(s) -->
+<!-- Screenshot -->
 <div align="center">
-  <img src="https://github.com/willtheorangeguy/PyAvatar/blob/main/docs/images/main.png">
+  <img src="https://raw.githubusercontent.com/willtheorangeguy/.github/main/icons/PyAvatar/main.png" alt="PyAvatar window">
 </div>
+
+## Status
+
+**Pre-release, and incomplete on purpose.** The window, the grid layout, and the clickable links all work. The avatars themselves do not exist yet: `PyAvatar/images.py` and `PyAvatar/links.py` are empty, two placeholder accounts are hardcoded in `main.py`, and both share one placeholder image.
+
+[`PLANNING.md`](PLANNING.md) tracks what remains — adding the images (0.2.0) and the links (0.3.0) before a 1.0.
+
+Everything below describes what runs today. See [`docs/roadmap.md`](docs/roadmap.md) for what does not.
 
 ## Key Features
 
-* Easy to use GUI interface.
-* Avatar and banner images are displayed for viewing.
-* Website links are clickable.
-* Links to local image storage are clickable.
-* Can add as many images as necessary.
-* Cross platform.
+- A Tkinter window listing accounts in a five-column grid, wrapping as it fills.
+- Each account shows an image, a name, and a link that opens in your browser.
+- Pure standard library — Tkinter only, nothing to install beyond Python.
+- Cross-platform: Windows, macOS, Linux.
 
-## Download
-
-You can **[download](https://github.com/willtheorangeguy/PyAvatar/releases/latest) the source code** to run the GUI script from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
-
-You can **[download](https://github.com/willtheorangeguy/PyAvatar/releases/latest) the latest executable launcher** of PyAvatar for Windows. **This does not require Python.**
-
-## How To Use
-
-To run the application, you can use [Git and the Python Interpreter](https://github.com/willtheorangeguy/PyAvatar/main/README.md#git), which allows you to clone and run the application, or [`pip`](https://github.com/willtheorangeguy/PyAvatar/main/README.md#pip) to create a command line application.
-
-### Git
-
-To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/downloads/) installed on your computer. If you would rather not use Git, you can just download the script from GitHub above. From your command line:
+## Installation
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/willtheorangeguy/PyAvatar
-
-# Go into the repository
-$ cd PyAvatar
-
-# Run the CLI
-$ python main.py
+git clone https://github.com/willtheorangeguy/PyAvatar
+cd PyAvatar
+python main.py
 ```
 
-### `pip`
+Running from the repository root matters — see [`docs/installation.md`](docs/installation.md).
 
-You can install the program from the [Python Package Index](https://pypi.org/project/PyAvatar/) through `pip`.
+## Usage
 
-```bash
-# Install via pip
-$ pip install python-avatar
+Launch it and the window lists your accounts. Click a link to open that site.
 
-# Run the CLI
-$ python-avatar
-```
+Adding your own accounts means editing `main.py` today; see [`docs/configuration.md`](docs/configuration.md).
+
+## Documentation
+
+Full documentation lives in [`docs/`](docs/README.md):
+[Quickstart](docs/quickstart.md) · [Installation](docs/installation.md) · [Configuration](docs/configuration.md) · [Architecture](docs/architecture.md) · [Development](docs/development.md) · [Testing](docs/testing.md) · [FAQ](docs/faq.md) · [Troubleshooting](docs/troubleshooting.md) · [Roadmap](docs/roadmap.md)
 
 ## Support
 
-To view all available websites and their corresponding avatar's, just launch the app!
-
-Customizing the list and location of websites, avatars and links can be found in [`CUSTOMIZATION.md`](https://github.com/willtheorangeguy/PyAvatar/tree/main/docs). More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/PyAvatar/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/PyAvatar/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/PyAvatar/discussions/new)** or join our **[Discord](https://discord.gg/Cjwt8DRfr3)**.
+Open a [GitHub Discussion](https://github.com/willtheorangeguy/PyAvatar/discussions/new), file an [issue](https://github.com/willtheorangeguy/PyAvatar/issues/new/choose), or join the [Discord](https://discord.gg/Cjwt8DRfr3).
 
 ## Contributing
 
 Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/willtheorangeguy/PyAvatar/compare).
 
-Please read [`CONTRIBUTING`](https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
-
-## Changelog
-
-See the [`CHANGELOG`](CHANGELOG.md) file for details.
+See the org-wide [Contributing Guide](https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## Credits
 
@@ -134,16 +107,8 @@ This software uses the following open source packages, projects, services or web
   </tr>
 </table>
 
-## Contributors
-
-* [@willtheorangeguy](https://github.com/willtheorangeguy) - Sponsor on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US)
-
-## You may also like...
-
-* [ProgramVer](https://github.com/willtheorangeguy/ProgramVer) - An open-source, Python GUI version window to show copyright info and licenses.
-* [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout!
-* [Periodic-Table-Info](https://github.com/willtheorangeguy/Periodic-Table-Info) - Print all the elements in the Periodic Table of the Elements, with an interactive prompt to learn more.
+Sponsor [@willtheorangeguy](https://github.com/willtheorangeguy) on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US).
 
 ## License
 
-This project is licensed under the [MIT License](https://mit-license.org/) - see the [`LICENSE`](LICENSE.md) file for details.
+MIT — see [`LICENSE.md`](LICENSE.md).
