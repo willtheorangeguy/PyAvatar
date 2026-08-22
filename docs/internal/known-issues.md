@@ -7,12 +7,11 @@ licensing decision rather than a documentation one.
 Ordered by severity. See [`docs/roadmap.md`](../roadmap.md) for the narrative version,
 which also covers deliberate non-goals.
 
-
 **5 open:** 1 high, 2 medium, 2 low.
 
 ## 1. The placeholder image path is relative to the working directory, so the installed command cannot start
 
-**Severity:** High  
+**Severity:** High
 **Where:** `main.py` -> `PLACEHOLDER = PhotoImage(file="PyAvatar/images/placeholder.gif")`
 
 **What:** The path is resolved against the process's current working directory rather than against the module's location. `MANIFEST.in` does package `PyAvatar/images/*`, so the GIF ships correctly -- the file is present, and the code still cannot find it. `setup.py` and `setup.cfg` both declare the console script `python-avatar = main:avatars`.
@@ -23,7 +22,7 @@ which also covers deliberate non-goals.
 
 ## 2. Three packaging files declare three different project names
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `setup.py`, `setup.cfg`, `pyproject.toml`
 
 **What:** `setup.py` has `name="python-avatar"`, `setup.cfg` has `name = python-avatar`, and `pyproject.toml` has `name = "Python-Avatar"`. The repository, the window title, and the documentation all say PyAvatar, and the README previously linked to a fourth spelling, `pypi.org/project/PyAvatar/`. All three packaging files describe the same distribution, and which one is authoritative depends on which the build backend reads.
@@ -34,7 +33,7 @@ which also covers deliberate non-goals.
 
 ## 3. README images used /blob/ URLs, so the logo and screenshot rendered as nothing
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `README.md` (fixed in this pass)
 
 **What:** The logo and screenshot were referenced as `https://github.com/willtheorangeguy/PyAvatar/blob/main/docs/images/logo.png`. The `/blob/` path serves GitHub's HTML viewer, not the image bytes, so an `<img src>` pointing at it renders as a broken image. The README also linked to itself with URLs missing the `/blob/` segment entirely -- `https://github.com/willtheorangeguy/PyAvatar/main/README.md#git` -- which 404.
@@ -45,7 +44,7 @@ which also covers deliberate non-goals.
 
 ## 4. images.py and links.py are empty, and their tests assert only that they import
 
-**Severity:** Low  
+**Severity:** Low
 **Where:** `PyAvatar/images.py`, `PyAvatar/links.py`, `tests/test_images.py`, `tests/test_links.py`
 
 **What:** Both modules contain a docstring, a pylint disable, and a one-line comment -- no code. `test_images.py` and `test_links.py` assert that each imports successfully and that its docstring mentions one of 'link', 'website', or 'avatar'. `MANIFEST.in` packages both. `docs/TESTING.md` reported 86% coverage across the project.
@@ -56,7 +55,7 @@ which also covers deliberate non-goals.
 
 ## 5. The layout counters are module-level globals that are never reset
 
-**Severity:** Low  
+**Severity:** Low
 **Where:** `main.py` -> `row_count`, `column_count`, `accounts`
 
 **What:** `row_count = 2` and `column_count = 1` are defined at module scope and mutated through `global` statements inside `accounts()`. Nothing resets them -- not `avatars()`, and not the end of a window's lifetime.
@@ -64,7 +63,6 @@ which also covers deliberate non-goals.
 **Why it matters:** Calling `avatars()` a second time in one process continues numbering from wherever the previous call stopped, so a second window's accounts appear far down an otherwise empty grid. It does not bite in normal use, because the function is called once and blocks in `mainloop()`. It does affect the tests, where ordering between cases that call `avatars()` becomes significant in a way nothing declares, and it will bite the moment the account list becomes reloadable.
 
 **Suggested fix:** Make them local to `avatars()` and pass the position through, or reset both at the top of `avatars()`. Either removes the need for the `global-statement` pylint disable at the top of the file.
-
 
 ---
 

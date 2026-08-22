@@ -3,7 +3,7 @@
 A Tkinter window that displays the avatars you use across the web, alongside links to where each
 one lives.
 
-```
+```text
 PyAvatar/
 ├── main.py               the window: layout, account frames, link handling
 ├── PyAvatar/

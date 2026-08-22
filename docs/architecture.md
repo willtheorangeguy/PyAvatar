@@ -2,7 +2,7 @@
 
 One file does the work. Two more are placeholders for the data it will eventually read.
 
-```
+```text
 main.py
  └── avatars()
       ├── Tk() window, title label
